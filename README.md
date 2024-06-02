@@ -6,7 +6,7 @@ A command-line tool to convert CSV files to JSON format.
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/csv_to_json.git
+    git clone https://github.com/Sahilkumar19/CSV_to_JSON_Converter.git
     cd csv_to_json
     ```
 
@@ -16,14 +16,9 @@ A command-line tool to convert CSV files to JSON format.
     source venv/bin/activate
     ```
 
-3. Install dependencies (if any):
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 ## Usage
 
 To convert a CSV file to JSON:
 
 ```bash
-python csv_to_json.py input.csv output.json
+python csv_to_json.py input.csv output.json --pretty
